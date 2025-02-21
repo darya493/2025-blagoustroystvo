@@ -18,11 +18,16 @@
             justify-content: center;
             text-align: center;
         }
-        a{
+        .photo {
+            width: 500px;
+            height: 300px;
+            margin: 0px 0;
+        }
+        a {
             text-decoration: none;
             color: #282828;
         }
-        a:hover{
+        a:hover {
             color: #737373;
         }
     </style>
@@ -49,13 +54,16 @@
     </div>
 </nav>
 
-<div class="hero">
+<div class="hero" style="background-image: url('hero-image.jpg'); text-align: center;">
     <h1>Благоустройство Беларуси в 2025 году</h1>
+    
 </div>
-
+<marquee behavior="scroll" direction="left">2025 год в Республике Беларусь признан "Годом благоустройства"</marquee>
+<center><img src="год.jpg" alt="О проекте" class="photo" ></center>
 <div class="container mt-5">
     <section id="about">
         <h2>О проекте</h2>
+        
         <p>Проект <strong>«Благоустройство Беларуси 2025»</strong> нацелен на создание комфортной и безопасной городской среды для жителей страны. В условиях стремительных изменений в urban-пейзаже, важно не только поддерживать существующую инфраструктуру, но и активно развивать новые инициативы, которые сделают города более удобными для жизни.</p>
     
     <h6>Цели проекта</h6>
@@ -66,14 +74,59 @@
     </ul>
 
     <h6>Основные направления работы</h6>
-    <p>В рамках проекта предусмотрены следующие ключевые направления:</p>
-    <ol>
-        <li><strong>Создание зеленых зон:</strong> Планируется озеленение городских территорий, создание парков и скверов, которые будут служить местами для отдыха и общения.</li>
-        <li><strong>Обновление транспортной инфраструктуры:</strong> Модернизация общественного транспорта, развитие велоинфраструктуры и пешеходных зон.</li>
-        <li><strong>Реконструкция исторических зданий:</strong> Восстановление и сохранение культурного наследия Беларуси, что позволит привлекать туристов и поддерживать местную экономику.</li>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
     </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="зоны (2).jpg" class="d-block mx-auto photo" alt="Создание зеленых зон">
+            <div class="carousel-caption d-none d-md-block" style="max-width: 200px; margin: 0 auto;">
+                <h5>Создание зеленых зон</h5>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="автобус.jpg" class="d-block mx-auto photo" alt="Обновление транспортной инфраструктуры">
+            <div class="carousel-caption d-none d-md-block" style="max-width: 200px; margin: 0 auto;">
+                <h5>Обновление транспортной инфраструктуры</h5>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="реконструкция.jpg" class="d-block mx-auto photo" alt="Реконструкция исторических зданий">
+            <div class="carousel-caption d-none d-md-block" style="max-width: 200px; margin: 0 auto;">
+                <h5>Реконструкция исторических зданий</h5>
+            </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Предыдущий</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Следующий</span>
+    </a>
+</div>
+<p>В рамках проекта предусмотрены следующие ключевые направления:</p>
+<ol>
+    <li><strong>Создание зеленых зон:</strong> Планируется озеленение городских территорий, создание парков и скверов, которые будут служить местами для отдыха и общения.</li>
+    <li><strong>Обновление транспортной инфраструктуры:</strong> Модернизация общественного транспорта, развитие велоинфраструктуры и пешеходных зон.</li>
+    <li><strong>Реконструкция исторических зданий:</strong> Восстановление и сохранение культурного наследия Беларуси, что позволит привлекать туристов и поддерживать местную экономику.</li>
+</ol>
+
+
+<p>В рамках проекта предусмотрены следующие ключевые направления:</p>
+<ol>
+    <li><strong>Создание зеленых зон:</strong> Планируется озеленение городских территорий, создание парков и скверов, которые будут служить местами для отдыха и общения.</li>
+    <li><strong>Обновление транспортной инфраструктуры:</strong> Модернизация общественного транспорта, развитие велоинфраструктуры и пешеходных зон.</li>
+    <li><strong>Реконструкция исторических зданий:</strong> Восстановление и сохранение культурного наследия Беларуси, что позволит привлекать туристов и поддерживать местную экономику.</li>
+</ol>
+
 
     <h6>Партнерство и участие граждан</h6>
+    <center><img src="граждане.jpg" alt="Партнерство и участие граждан" class="photo"></center>
     <p>Мы уверены, что успешная реализация проекта возможна только при активном участии всех заинтересованных сторон. Поэтому мы приглашаем:</p>
     <ul>
         <li><strong>Граждан:</strong> Делитесь своими идеями и предложениями по благоустройству вашего района.</li>
@@ -82,9 +135,9 @@
     </ul>
 
     </section>
-
     <section id="initiatives" class="mt-5">
         <h2>Инициативы</h2>
+    <center> <img src="инициатива.jpg" alt="Инициативы" class="photo"></center>
         <ul>
             <li><strong>Создание общественных садов:</strong> Открытие площадок для совместного выращивания растений и овощей, что способствует укреплению сообщества.</li>
         <li><strong>Развитие велоинфраструктуры:</strong> Строительство велодорожек и установка велопарковок для удобства и безопасности велосипедистов.</li>
